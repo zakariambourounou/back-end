@@ -1,0 +1,12 @@
+*** les midleware se sont des fonction js capable de reagir avec les requetes entante et sortantes 
+il peuvent acceder a req reponse
+
+en gros ils peuvent acceder a des fonction de express js 
+creons notre propres middleware
+
+** nous avons le middleware MORGAN qui permet de renvoyer les infos saisi de l'url et les statuts de ce dernier
+**etant donne quil existe plusieurs alors en ce sens on peut les connecter 
+
+on instal des depndance NPM a chaque middleware
+
+*nous appelons la mrthode use('insers)
